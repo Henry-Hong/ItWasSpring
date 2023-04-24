@@ -1,0 +1,32 @@
+### 프로젝트 목적
+백엔드 프로젝트 관리를 위해 아래 항목들을 학습합니다. 
+- Spring FrameWork에 대한 전반적인 이해
+  - 개발 / 빌드 및 실행 환경 파악
+    - Gradle & Java
+    - File / Folder Structures
+    - Java 11 / Java 17 / **Kotlin**
+  - 메이저 프레임워크 파악
+    - Spring Boot
+    - Spring Data JPA : Object-Relational-Mapping
+    - Spring Security : Authentication, Authorization
+- Design Pattern의 이해
+  - Dependency Injection의 이해
+  - AOC의 이해
+- 배포환경의 이해
+  - Docker
+    - Docker Compose
+    - Docker Hub
+    - Container Port Inbound / Outbound Control
+  - AWS
+    - AWS EC2
+    - AWS S3
+    - AWS Cloud Front
+    - AWS Lambda
+    - AWS API Gateway
+    - AWS Lex
+    - AWS Elastic Beanstalk
+- Additional
+  - Test (Junit)
+  - Elasticsearch
+  - Kibana
+  - (Optional) Spring Data Elasticsearch
