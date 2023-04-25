@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruit</title>
+</head>
+<body>
+<p th:text="'파라미터값: ' + ${name}">여긴왜있지?</p>
+<p>심지어 여긴왜있지? 라고 되어있는 부분은 렌더링되지도않는다. -> 알고보니 서버로부터 값을 받아오지 않을때
+기본값을 의미하는것이었다.</p>
+</body>
+</html>
