@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Fruit</title>
+</head>
+<body>
+<p th:text="'My favorite food is' + ${favorite}">여긴왜있지?</p>
+<p>${key} 에 해당하는 key가 없다면 null</p>
+<p>h1태그에 적용되지 않는 th 문법.. 너무 이상하다.</p>
+<p>심지어 여긴왜있지? 라고 되어있는 부분은 렌더링되지도않는다.</p>
+<p>화룡점정은 그냥 "" 문자열 안에서 문자열을 쓰려면 ''로 감싸야한다는것이다. 그냥 말이안된다.</p>
+</body>
+</html>
